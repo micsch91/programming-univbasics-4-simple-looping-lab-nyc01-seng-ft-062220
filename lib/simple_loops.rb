@@ -15,6 +15,5 @@ end
   end
 
 def return_string_array(array)
-  array.to_s
 return array.to_s
 end
