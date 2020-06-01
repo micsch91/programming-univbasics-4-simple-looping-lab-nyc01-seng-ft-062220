@@ -9,6 +9,6 @@ def loop_message_n_times(message, number)
   counter=0
 while message[counter] do
   puts message[counter]
-  counter += 1
+  counter+=1
 end
   end
