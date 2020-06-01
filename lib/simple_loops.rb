@@ -7,8 +7,8 @@ end
 
 def loop_message_n_times(message, number)
   counter=0
-while number[counter] do
-  puts number[counter]
+while [counter] do
+  puts [counter]
   counter+=1
 end
   end
