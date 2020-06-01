@@ -15,5 +15,10 @@ end
   end
 
 def return_string_array(array)
-return array.to_s
+  counter = 0
+  new_array = []
+  while count < array.length do
+    new_array.push(array[count].to_s)
+    counter += 1
+  end
 end
