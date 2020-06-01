@@ -5,10 +5,10 @@ def loop_message_five_times(message)
 end
   end
 
-def loop_message_n_times(message)
+def output_array(array)
   counter = 0
-  while number[counter] do
-    puts message[counter]
-    counter +=1
-  end
+while counter < array.length do
+  puts array[counter]
+  counter += 1
+end
 end
