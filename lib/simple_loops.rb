@@ -11,3 +11,4 @@ def loop_message_n_times(message)
     puts message[counter]
     counter +=1
   end
+end
